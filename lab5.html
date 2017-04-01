@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>实验5</title>
+<meta charset="utf-8">
+</head>
+<body>
+<table border="1" cellspacing="0" cellpadding="4" color="write" align="center"><form>
+	<tr>
+		<td>用户名：</td>
+		<td><input type="text"/><br/></td>
+	</tr>
+	<tr>
+		<td>密码：</td>
+		<td><input type="password"/><br/></td>
+	</tr>
+	<tr>
+		<td>确认密码：</td>
+		<td><input type="password"/><br/></td>
+	</tr>
+	<tr>
+		<td>性别:</td>
+		<td><input type="radio" value="Male" name="sex" checked="checked"/>男
+			<input type="radio" value="Female" name="sex" />女</td>
+	</tr>
+	<tr>
+		<td>生日：</td>
+		<td><select name="birthday">
+			<option value="one" selected="selected">公历</option>
+			<option value="two">农历</option></select>&nbsp;
+		<select name="year">
+			<option value="zero" selected="selected" colspan="2">年</option>
+			<option value="one">1997年</option>
+			<option value="two">1998年</option>
+			<option value="three">1999年</option>
+			<option value="four">2000年</option></select>&nbsp;
+		<select name="month">
+			<option value="zero" selected="selected">月</option>
+			<option value="one">1月</option>
+			<option value="two">2月</option>
+			<option value="three">3月</option>
+			<option value="four">4月</option>
+			<option value="five">5月</option>
+			<option value="six">6月</option>
+			<option value="seven">7月</option>
+			<option value="eight">8月</option>
+			<option value="nine">9月</option>
+			<option value="ten">10月</option>
+			<option value="eleven">11月</option>
+			<option value="twelve">12月</option></select>&nbsp;
+		<select name="day">
+			<option value="zero" selected="selected">日</option>
+			<option value="one">1</option>
+			<option value="two">2</option>
+			<option value="three">3</option></select>&nbsp;</td>
+
+	</tr>
+	<tr>
+		<td>所在地：</td>
+		<td><select name="country">
+			<option value="one" selected="selected">中国</option>
+			<option value="two">美国</option>
+			<option value="three">法国</option></select>
+		<select name="province">
+			<option value="one" selected="selected">河北</option>
+			<option value="two">河南</option>
+			<option value="three">云南</option></select>
+		<select name="city">
+			<option value="one"selected="selected">石家庄</option>
+			<option value="two">保定</option>
+			<option value="three">邯郸</option></select></td>
+	</tr>
+	<tr>
+		<td>验证码：</td>
+		<td><input type="text"/><img src="yanzhengma.jpg"/></td>
+	</tr>
+	<tr>
+		<td>证件类型</td>
+		<td><select name="id card">
+			<option value="one" selected="selected">身份证</option>
+			<option value="two">户口本</option></select></td>
+	</tr>
+	<tr>
+		<td>证件号:</td>
+		<td><input type="text"/><br/></td>
+	</tr>
+	<tr>
+		<td>爱好</td>
+		<td><input type="checkbox" value="music" name="hobby" />音乐&nbsp;
+			<input type="checkbox" value="reading" name="hobby" checked="checked"/>读书&nbsp;
+			<input type="checkbox" value="dance" name="hobby" checked="checked"/>跳舞&nbsp;
+			<input type="checkbox" value="chess" name="hobby" />下棋&nbsp;
+			<input type="checkbox" value="other" name="hobby" />其他</td>
+	</tr>
+	<tr>
+		<td>说明：</td>
+		<td><textarea name="explain " rows="3" cols= " 25"></textarea></td>
+	</tr>
+	<tr>
+		<td>上传图像</td>
+		<td><input type="button" value="选择文件" name="choice"/>未选择任何文件</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" value="提交" name="sub"/>
+			<input type="reset" value="重置" name="res"/>
+			<input type="button" value="按钮" name="button"/></td>
+	</tr>
+</form>
+</table>
+</body>
+</html>
