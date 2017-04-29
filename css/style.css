@@ -1,0 +1,8 @@
+html{font:normal normal 12px 'Arial';
+line-height: 2em; color: gray;}
+a{color: #727272;text-decoration: none;}
+a:hover{text-decoration: underline;}
+td a{font:normal bold 14px 'Arial';color: #b9f605; }
+td a:link{color: white;}
+td a:hover{text-decoration:none;color: #b9f605;}
+.final{color: #fbd306;}
