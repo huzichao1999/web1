@@ -1,0 +1,22 @@
+a{
+	text-decoration:none;
+	color:white;
+}
+li{
+	color:green;
+	list-style-type:none;
+	float:left;
+
+}
+ul{
+	text-indent:2em;
+}
+.specil{
+	color:orange;
+}
+div{
+	height:50px;
+	padding:10px;
+	margin:5px;
+	background-image:url(../image/bg.gif);
+}

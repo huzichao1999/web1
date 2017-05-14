@@ -1,0 +1,25 @@
+.sdiv{
+	height:365px;
+	width:205px;
+	padding:8px;
+	margin:5px;
+	background-image:url(../image/bj.png)
+}
+.b{
+	background-image:url(../image/lvbiaoti.png);
+}
+ul{
+	list-style-type:none;
+	color:gray;
+}
+li{
+	height:23px;
+	width:130px;
+	padding-right:17px;
+	padding-top:3px;
+	padding-bottom: 3px;
+	margin-bottom:15px;
+	margin-top:15px;
+	text-align: center;
+	background-image:url(../image/baibiaoti.png);
+}
