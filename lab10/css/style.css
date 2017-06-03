@@ -1,0 +1,289 @@
+body{
+	font-size:14px;
+	color:#522a06;
+	font-family:'宋体';
+	background-image:url(../images/bodybg.gif);
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*页头部分*/
+#header{
+	width:1500px;
+	height:205px;
+	background-image:url(../images/bg.gif);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#banner{
+	width:1000px;
+	height:164px;
+	position:center;
+}
+#nav{
+	height:40px;
+	width:1500px;
+	background-image:url(../images/nav.jpg);
+	overflow: hidden;
+}
+#logo{
+	position:relative;
+	top:38px;
+	left:100px;
+}
+.nav_body{
+	position:center;
+}
+.nav_content{
+	float: left; 
+	width:850px;
+	font-weight:bold;
+	margin-left:90px;
+ 	padding-top:8px;
+ 	color: #fff;
+}
+.nav_search{
+	float: left;
+	margin-top: 6px;
+	margin-left: 100px;
+}
+.a{
+	color:#f9f603;
+	margin:7px;
+}
+.a:link{
+	text-decoration:none;
+}
+.a:visited{
+	text-decoration:none;
+}
+.a:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.b{
+	color:white;
+	margin:10px;
+}
+.b:link{
+	text-decoration:none;
+}
+.b:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.shuru{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+}
+.sous{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#content{
+	width: 1300px;
+	position: center;
+	clear: both;
+	overflow: hidden;
+	height: 850px;
+}
+#c{
+	height: 300px;
+	width: 1300px;
+}
+.newspic{
+	width:350px;
+	height:250px;
+	float:left;
+	background-image:url(../images/news_bg.png);
+	background-repeat:no-repeat;
+	margin-top:20px;
+	margin-left:90px;
+}
+.qu{
+	width: 300px;
+	height: 200px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+.jing{
+	float: left;
+	width:300px;
+	height: 22px;
+	margin-top: 8px;
+	margin-left: 70px;
+}
+.newslist{
+	width: 450px;
+	height: 300px;
+	margin-left: 20px;
+	float: left;
+	background-image:url(../images/change.png);
+	background-repeat: no-repeat;
+	margin-top: 20px
+}
+.e{
+	float: right;
+	margin-left: 10px;
+}
+.f{
+	float: left;
+	margin-top: 15px;
+	width: 450px;
+	padding-left: 0px;
+}
+.list{
+	height: 30px;
+}
+.list1{
+	color:#522a06; 
+}
+.g{
+	float: right;
+}
+.announce{
+	width: 277px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 50px;
+	overflow: hidden;
+}
+.an{
+	margin-left: 60px
+}
+.ann{
+	background-image: url(../images/board_bg.png);
+	width: 350px;
+	height: 205px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+#bf{
+	width: 970px;
+	float: left;
+	height:520px;
+}
+.book{
+	width: 450px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-image: url(../images/book_news.png);
+	margin-left: 20px;float: left;
+}
+.academic{
+	width: 450px;
+	height:200px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	background-image: url(../images/academic.png);
+	float: left;
+}
+.aca{
+	float: left;
+	margin-top: 30px;
+	width: 450px;
+	padding-left: 0px;
+}
+.fengcai{
+	float: left;
+	width: 900px;
+	height: 300px;
+	background-image: url(../images/fengcai_bg1.png);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 40px
+}
+.yanzhao{
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	margin-top: 70px;
+	width: 850px;
+	height: 400px;
+}
+.yan{
+	list-style-type: none;
+	margin-top: 10px;
+	float: left;
+	padding-top: 5px;
+	padding-left:20px;
+}
+.feng{
+	float: left;
+	margin-right: 5px
+}
+#br{
+	width: 260px;
+	height: ;
+	margin-top: 20px;
+	float: right;
+	background-image: url(../images/show.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-right: 20px;
+}
+.mingjia{
+	width: 300px;
+	height: 520px;
+	background-image: url(../images/show_bg.png);
+	background-repeat: no-repeat;
+	margin-top:50px;
+	padding-top: 15px;  
+}
+.ouyang{
+	background-image: url(../images/mingjia.jpg);
+	background-repeat: no-repeat;width: 224px;
+	height:187px;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.zhongshi{
+	width: 250px;
+	margin-top: 5px ;
+	margin-left: 10px;
+}
+.zhong{
+	font-weight: bold;
+	color:#802a06;
+}
+.mor{
+	margin-left: 200px;
+}
+#footer{
+	clear: both;
+	width: 1500px;
+	height: 150px;
+	background-image: url(../images/foot.gif);
+}
+.jia{
+	height: 25px;
+	width: 1000px;
+	margin-left: 450px;
+}
+.jiao{
+	font-weight: left;
+	color:#522a06;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.line{
+	margin-left: 450px;
+}
+.yo{
+	margin-left: 470px;
+}
+.yoo{
+	margin-left: 500px;
+}
