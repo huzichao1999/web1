@@ -1,0 +1,16 @@
+div.image img{
+	display:inline;
+	margin:3px;
+	width:200px;
+	height:160px;
+	opacity:0.5;
+}
+.image{
+	float:left;
+	border:1px solid #bebebe;
+	text-align:center;
+}
+div.image a:hover img{
+	border:1px solid #333333;
+	opacity:1;
+}
