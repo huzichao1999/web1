@@ -1,0 +1,149 @@
+body{
+	font-size:14px;
+	color:#522a06;
+	font-family:'宋体';
+	background-image:url(../images/yinchun.jpg);
+	background-repeat: repeat;
+	background-color: #000000;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*页头部分*/
+#header{
+	width:1500px;
+	height:205px;
+	background-image:url(../images/tou.jpg);
+	background-repeat:repeat;
+	background-position:center top;
+}
+#banner{
+	width:1000px;
+	height:164px;
+	position:center;
+}
+#nav{
+	height:40px;
+	width:1500px;
+	background-image:url(../images/nav.jpg);
+	overflow: hidden;
+}
+#logo{
+	position:relative;
+	top:30px;
+	left:10px;
+	width: 200px;
+	height: 100px;
+}
+.nav_body{
+	position:center;
+}
+.nav_content{
+	float: left; 
+	width:850px;
+	font-weight:bold;
+	margin-left:90px;
+ 	padding-top:8px;
+ 	color: #fff;
+}
+.nav_search{
+	float: left;
+	margin-top: 6px;
+	margin-left: 100px;
+}
+.a{
+	color:#f9f603;
+	margin:7px;
+}
+.a:link{
+	text-decoration:none;
+}
+.a:visited{
+	text-decoration:none;
+}
+.a:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.b{
+	color:white;
+	margin:10px;
+}
+.b:link{
+	text-decoration:none;
+}
+.b:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.shuru{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+}
+.sous{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#content{
+	width: 1300px;
+	position: center;
+	clear: both;
+	overflow: hidden;
+	height: 850px;
+}
+#c{
+	height: 300px;
+	width: 1300px;
+}
+.bai{
+	width:800px;
+	height:250px;
+	position: center;
+	margin-top:20px;
+	margin-left:90px;
+}
+h1{color: purple;
+			position: center;}
+		p{
+			text-indent:2em;
+			color: black;
+			position: center;
+		}
+
+#footer{
+	clear: both;
+	width: 1500px;
+	height: 150px;
+	background-image: url(../images/foot.gif);
+}
+.jia{
+	height: 25px;
+	width: 1000px;
+	margin-left: 450px;
+}
+.jiao{
+	font-weight: left;
+	color:#522a06;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.line{
+	margin-left: 450px;
+}
+.yo{
+	margin-left: 470px;
+}
+.yoo{
+	margin-left: 500px;
+}
