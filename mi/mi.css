@@ -10,12 +10,12 @@
 			height: 25px;
 			margin: 3px;
 		}
-		.firstrow{
+		.now{
 			float: left;
 			font-size: 20px;
 			font-weight: bold;
 		}
-		.lastworld{
+		.other{
 			float: right;
 			font-size: 18px;
 		}
