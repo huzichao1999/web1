@@ -1,0 +1,147 @@
+<style type="text/css">
+		#out{
+			width: 1290px;
+			height: 671px;
+			background: #E0E0E0;
+		}
+		
+		.biaoti{
+			width: 1263px;
+			height: 25px;
+			margin: 3px;
+		}
+		.firstrow{
+			float: left;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.lastworld{
+			float: right;
+			font-size: 18px;
+		}
+		ul li{
+			list-style: none;
+		}
+		a:link.re{
+			color: red;
+			text-decoration: underline;
+		}
+		li.outer{
+			float: left;
+			width: 230px;
+			height: 290px;
+			border: 1px;
+			background: white;
+			margin: 7px;/*上右下左*/
+		}
+		.robot{
+			float: left;
+			width:auto;
+			height:auto;
+			border: 1px;
+			margin: 7px;/*外边距*/
+		}
+		li div.img1 img{
+			float: center;
+			width: 160px;
+			height: 160px;
+			margin-left:35px;
+		}
+	
+		li div.desc{
+			text-align: center;
+			width: 220px;
+			font-size: 14px;
+			margin: 5px;
+		}
+		
+		li div.desc1{
+			text-align: center;
+			width: 220px;
+			font-size: 12px;
+		}
+		li div font.color{
+			color: gray;
+			text-decoration:line-through;
+			font-size: 15px;
+		}
+		
+		.desc2{
+			text-align: center;
+			width: 220px;
+			font-size: 15px;
+			margin: 7px;
+		}
+		
+		.desc3{
+			text-align: center;
+			width: 100px;
+			font-size: 15px;
+			margin-left: 3px;
+			padding-top: 50px;
+		}
+		li.outer2{
+			float: left;
+			width: 230px;
+			height: 136px;
+			border: 1px;
+			background: white;
+			margin: 7px;/*上右下左*/
+		}
+		li div.bai img{
+			float:right;
+			width: 100px;
+			height: 110px;
+			margin: 1px;
+		}
+		li div.img2 img{
+			float:left;
+			width: 230px;
+			height: 136px;
+			margin: 1px;
+		}
+		li div a:link{
+			text-decoration: none;
+			color: black;
+		}
+		li div a:hover{
+			text-decoration: none;
+		}
+		
+		li.outer:hover{
+			margin-top: 1px;
+		}
+		li div.robot:hover{
+			margin-top: 1px;
+		}
+		li.outer2:hover{
+			margin-top: 1px;
+		}
+		
+		
+		.pop{
+			display: none;
+			width: auto;
+			height: 30px;
+			float: bottom;
+			text-align:-2em;
+			color:white;
+			font-size: 8px;
+			padding: 0px 5px 5px 5px;
+			background: orange;
+		}
+		.logo{
+			float:left;
+			width: 230px;
+			height: 25px;
+			font-size: 15px;
+			color: white;
+			text-align: center;
+		}
+		span.bgcolor1{
+			background: red;
+		}
+		span.bgcolor2{
+			background: green;
+		}
+	</style>
